@@ -4,9 +4,11 @@ CypressWebUITestingBankingServices is a project focused on automated testing of 
 
 ## Objective
 
-The goal of this project is to ensure the quality and reliability of banking services by automating the testing process. By leveraging Cypress, we can create robust and comprehensive test suites that cover various scenarios and interactions within the banking application.
+The objective of CypressWebUITestingBankingServices is to ensure the quality and reliability of banking services by automating the testing process. By leveraging Cypress, we can create robust and comprehensive test suites that cover various scenarios and interactions within the banking application.
 
 ## Features
+
+The project includes the following features:
 
 - Account Creation: Test the process of creating a new account, including validation of input fields and successful account creation.
 - Funds Transfer: Validate the transfer of funds between different accounts, ensuring accurate balances and transaction records.
@@ -24,21 +26,36 @@ The CypressWebUITestingBankingServices project follows a systematic testing appr
 4. Continuous Integration: Integrate the test suite with a CI system (e.g., Jenkins or CircleCI) for automated test execution on code changes and feedback on application health.
 5. Maintenance and Enhancement: Regularly update the test suite to accommodate changes in the banking application, including new features, bug fixes, and UI updates. Enhancements may also involve incorporating performance testing or security testing into the existing test suite.
 
+## Technologies Used
+
+The technologies used in the CypressWebUITestingBankingServices project include:
+
+- Cypress: JavaScript-based end-to-end testing framework.
+- JavaScript: Programming language used to write test scripts and interact with Cypress.
+- Node.js: JavaScript runtime environment required to run Cypress.
+- Visual Studio Code: Integrated Development Environment (IDE) for code editing and debugging.
+  
 ## Getting Started
 
-To start using CypressWebUITestingBankingServices, follow these steps:
+To get started with CypressWebUITestingBankingServices, follow these steps:
 
-1. Clone the project repository to your local development environment.
+1. Clone the project repository: git clone https://github.com/masumrazait/CypressWebUITestingBankingServices.git
+
 2. Install the necessary dependencies by running `npm install` or `yarn install`.
+
 3. Configure the project to target the specific banking application instance you want to test.
+
 4. Write test cases using Cypress syntax, leveraging its powerful features for UI interaction and assertions.
+
 5. Run the tests using Cypress's test runner and analyze the test results.
+
 6. Integrate the project with your preferred CI system to enable automated test execution on code changes.
+
 7. Maintain and enhance the test suite to keep up with changes in the banking application and incorporate additional testing requirements as needed.
 
 ## Contributing
 
-Contributions to the CypressWebUITestingBankingServices project are welcome! If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request on the project's GitHub repository. Be sure to follow the established coding standards and testing practices when contributing to maintain consistency.
+Contributions to CypressWebUITestingBankingServices are welcome! If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request on the project's [GitHub repository](https://github.com/masumrazait/CypressWebUITestingBankingServices). Please adhere to the established coding standards and testing practices when contributing to maintain consistency.
 
 ## License
 
