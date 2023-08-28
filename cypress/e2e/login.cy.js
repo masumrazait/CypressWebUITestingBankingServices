@@ -5,8 +5,8 @@ describe('LoginPage', () => {
         //for open url 
         cy.visit('https://parabank.parasoft.com/parabank/index.htm')
         cy.title().should('eq','ParaBank | Welcome | Online Banking')
-        cy.get("input[name='username']").type("Masum@123")
-        cy.get("input[name='password']").type("Masum@123")
+        cy.get("input[name='username']").type("Rav@12345")
+        cy.get("input[name='password']").type("Rav@12345")
         cy.get("input[value='Log In']").click()
         cy.title().should('eq','ParaBank | Accounts Overview')
         cy.get("a[href='/parabank/logout.htm']").click()
@@ -17,8 +17,8 @@ describe('LoginPage', () => {
         //for open url 
         cy.visit('https://parabank.parasoft.com/parabank/index.htm')
         cy.title().should('eq','ParaBank | Welcome | Online Banking')
-        cy.get("input[name='username']").type("Masum@123")
-        cy.get("input[name='password']").type("Masum@123")
+        cy.get("input[name='username']").type("Rav@12345")
+        cy.get("input[name='password']").type("Rav@12345")
         cy.get("input[value='Log In']").click()
         cy.title().should('eq','ParaBank | Accounts Overview')
         cy.get("a[href='/parabank/billpay.htm']").click()
